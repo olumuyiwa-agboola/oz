@@ -1,6 +1,9 @@
-var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+using Oz.Gateway.Configurations;
 
-app.MapGet("/", () => "Hello World!");
+var builder = WebApplication.CreateBuilder(args);
+
+var app = builder.ConfigureAndBuild();
+
+app.ConfigureRequestPipeline();
 
 app.Run();
