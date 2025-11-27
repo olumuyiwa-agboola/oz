@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Oz.Gateway/Oz.Gateway.csproj" />
+  </Folder>
+</Solution>
