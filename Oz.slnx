@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/src/">
     <Project Path="src/Oz.Gateway/Oz.Gateway.csproj" />
+    <Project Path="src/Oz.Utils/Oz.Utils.csproj" />
   </Folder>
 </Solution>
